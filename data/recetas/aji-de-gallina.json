@@ -1,0 +1,52 @@
+{
+  "id": "aji-de-gallina",
+  "type": "receta",
+  "title": "Ají de gallina",
+  "summary": "Pollo deshilachado en crema de ají amarillo, pan y pecanas. Con papa amarilla, arroz, huevo y aceituna.",
+  "category": "fondos",
+  "cuisine": "criolla",
+  "time_min": 50,
+  "difficulty": "Media",
+  "servings": 4,
+  "tags": ["criolla", "pollo", "almuerzo"],
+  "created": "2026-10-08",
+  "ingredients": [
+    {
+      "group": "Para el guiso",
+      "items": [
+        { "qty": 600, "unit": "g", "name": "pechuga de pollo", "aisle": "mercado" },
+        { "qty": 4, "unit": "", "name": "ajíes amarillos", "note": "sin venas ni pepas", "aisle": "mercado" },
+        { "qty": 1, "unit": "", "name": "cebolla roja grande", "note": "picada", "aisle": "mercado" },
+        { "qty": 3, "unit": "dientes", "name": "ajo", "aisle": "mercado" },
+        { "qty": 4, "unit": "rebanadas", "name": "pan de molde", "note": "sin borde", "aisle": "bodega" },
+        { "qty": 1, "unit": "taza", "name": "leche evaporada", "aisle": "bodega" },
+        { "qty": 0.5, "unit": "taza", "name": "pecanas", "note": "picadas", "aisle": "bodega" },
+        { "qty": 50, "unit": "g", "name": "queso parmesano", "note": "rallado", "aisle": "bodega" },
+        { "qty": 1, "unit": "cdta", "name": "palillo", "aisle": "bodega" },
+        { "qty": null, "unit": "", "name": "sal, pimienta y comino", "note": "al gusto", "aisle": "despensa" }
+      ]
+    },
+    {
+      "group": "Para servir",
+      "items": [
+        { "qty": 4, "unit": "", "name": "papas amarillas", "note": "sancochadas", "aisle": "mercado" },
+        { "qty": 2, "unit": "", "name": "huevos duros", "aisle": "bodega" },
+        { "qty": 4, "unit": "", "name": "aceitunas de botija", "aisle": "bodega" },
+        { "qty": 2, "unit": "tazas", "name": "arroz blanco", "note": "cocido", "aisle": "despensa" }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "Sancocha la pechuga en agua con sal. Deshilacha y reserva 2 tazas del caldo.", "timer_min": 20, "uses": ["pechuga de pollo"] },
+    { "text": "Remoja el pan en la leche y licúa con los ajíes hasta tener una crema lisa.", "uses": ["pan de molde", "leche evaporada", "ajíes amarillos"] },
+    { "text": "Dora la cebolla y el ajo en aceite a fuego medio hasta que estén transparentes. Sazona con sal, pimienta, comino y palillo.", "timer_min": 8, "uses": ["cebolla roja grande", "ajo", "palillo"] },
+    { "text": "Agrega la crema de ají y cocina, removiendo para que no se pegue.", "timer_min": 10 },
+    { "text": "Incorpora el pollo y el caldo poco a poco hasta lograr una textura cremosa." },
+    { "text": "Fuera del fuego, añade el parmesano y las pecanas. Rectifica la sal.", "uses": ["queso parmesano", "pecanas"] },
+    { "text": "Sirve sobre papa amarilla en rodajas, con arroz, medio huevo y una aceituna." }
+  ],
+  "tips": [
+    "Con pasta de ají amarillo en vez de ajíes frescos, usa 3 cucharadas.",
+    "Si queda muy espeso, aligera con caldo; si queda ralo, agrega un poco más de pan."
+  ]
+}

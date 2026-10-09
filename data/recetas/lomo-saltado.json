@@ -1,0 +1,48 @@
+{
+  "id": "lomo-saltado",
+  "type": "receta",
+  "title": "Lomo saltado",
+  "summary": "Tiras de lomo salteadas a fuego alto con cebolla, tomate, sillao y vinagre. Con papas fritas y arroz.",
+  "category": "fondos",
+  "cuisine": "criolla",
+  "time_min": 30,
+  "difficulty": "Media",
+  "servings": 2,
+  "tags": ["criolla", "res", "wok"],
+  "created": "2026-10-06",
+  "ingredients": [
+    {
+      "group": "Para el saltado",
+      "items": [
+        { "qty": 400, "unit": "g", "name": "lomo fino", "note": "en tiras gruesas", "aisle": "mercado" },
+        { "qty": 1, "unit": "", "name": "cebolla roja", "note": "en gajos gruesos", "aisle": "mercado" },
+        { "qty": 2, "unit": "", "name": "tomates", "note": "en gajos, sin pepas", "aisle": "mercado" },
+        { "qty": 1, "unit": "", "name": "ají amarillo", "note": "en tiras", "aisle": "mercado" },
+        { "qty": 2, "unit": "dientes", "name": "ajo", "note": "picado", "aisle": "mercado" },
+        { "qty": 3, "unit": "cda", "name": "sillao", "aisle": "bodega" },
+        { "qty": 2, "unit": "cda", "name": "vinagre tinto", "aisle": "bodega" },
+        { "qty": 2, "unit": "cda", "name": "culantro", "note": "picado", "aisle": "mercado" },
+        { "qty": null, "unit": "", "name": "sal, pimienta y aceite", "note": "al gusto", "aisle": "despensa" }
+      ]
+    },
+    {
+      "group": "Para servir",
+      "items": [
+        { "qty": 2, "unit": "", "name": "papas blancas", "note": "en bastones, fritas", "aisle": "mercado" },
+        { "qty": 1.5, "unit": "tazas", "name": "arroz blanco", "note": "cocido", "aisle": "despensa" }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "Sazona la carne con sal, pimienta y ajo. Calienta el wok o sartén hasta que humee.", "uses": ["lomo fino", "ajo"] },
+    { "text": "Sella la carne en tandas pequeñas a fuego muy alto, sin moverla mucho. Retira.", "timer_min": 3, "uses": ["lomo fino"] },
+    { "text": "En el mismo wok saltea la cebolla y el ají amarillo un minuto, que queden crocantes.", "timer_min": 1, "uses": ["cebolla roja", "ají amarillo"] },
+    { "text": "Regresa la carne, agrega el sillao y el vinagre por los bordes para que flamee.", "uses": ["sillao", "vinagre tinto"] },
+    { "text": "Suma el tomate y el culantro, saltea 30 segundos y apaga.", "uses": ["tomates", "culantro"] },
+    { "text": "Sirve de inmediato con las papas fritas y el arroz." }
+  ],
+  "tips": [
+    "El secreto es el fuego alto y tandas pequeñas: si llenas el wok, la carne se cocina en su jugo en vez de sellarse.",
+    "Fríe las papas antes y mantenlas calientes en el horno."
+  ]
+}

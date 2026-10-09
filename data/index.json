@@ -1,0 +1,92 @@
+{
+  "updated": "2026-10-09T03:49:19.683Z",
+  "recetas": [
+    {
+      "id": "aji-de-gallina",
+      "type": "receta",
+      "file": "data/recetas/aji-de-gallina.json",
+      "title": "Ají de gallina",
+      "summary": "Pollo deshilachado en crema de ají amarillo, pan y pecanas. Con papa amarilla, arroz, huevo y aceituna.",
+      "category": "fondos",
+      "time_min": 50,
+      "servings": 4,
+      "difficulty": "Media",
+      "tags": [
+        "criolla",
+        "pollo",
+        "almuerzo"
+      ],
+      "created": "2026-10-08",
+      "ingredient_count": 14,
+      "search": "Ají de gallina Pollo deshilachado en crema de ají amarillo, pan y pecanas. Con papa amarilla, arroz, huevo y aceituna. criolla pollo almuerzo pechuga de pollo ajíes amarillos cebolla roja grande ajo pan de molde leche evaporada pecanas queso parmesano palillo sal, pimienta y comino papas amarillas huevos duros aceitunas de botija arroz blanco"
+    },
+    {
+      "id": "lomo-saltado",
+      "type": "receta",
+      "file": "data/recetas/lomo-saltado.json",
+      "title": "Lomo saltado",
+      "summary": "Tiras de lomo salteadas a fuego alto con cebolla, tomate, sillao y vinagre. Con papas fritas y arroz.",
+      "category": "fondos",
+      "time_min": 30,
+      "servings": 2,
+      "difficulty": "Media",
+      "tags": [
+        "criolla",
+        "res",
+        "wok"
+      ],
+      "created": "2026-10-06",
+      "ingredient_count": 11,
+      "search": "Lomo saltado Tiras de lomo salteadas a fuego alto con cebolla, tomate, sillao y vinagre. Con papas fritas y arroz. criolla res wok lomo fino cebolla roja tomates ají amarillo ajo sillao vinagre tinto culantro sal, pimienta y aceite papas blancas arroz blanco"
+    },
+    {
+      "id": "causa-limena",
+      "type": "receta",
+      "file": "data/recetas/causa-limena.json",
+      "title": "Causa limeña de atún",
+      "summary": "Masa de papa amarilla con ají y limón, rellena de atún con mayonesa y palta.",
+      "category": "entradas",
+      "time_min": 45,
+      "servings": 6,
+      "difficulty": "Fácil",
+      "tags": [
+        "criolla",
+        "frío",
+        "entrada"
+      ],
+      "created": "2026-10-02",
+      "ingredient_count": 9,
+      "search": "Causa limeña de atún Masa de papa amarilla con ají y limón, rellena de atún con mayonesa y palta. criolla frío entrada papa amarilla pasta de ají amarillo limones aceite vegetal sal atún mayonesa cebolla roja paltas"
+    }
+  ],
+  "notas": [
+    {
+      "id": "aji-fresco-o-pasta",
+      "type": "nota",
+      "file": "data/notas/aji-fresco-o-pasta.json",
+      "title": "Ají amarillo: fresco o en pasta",
+      "summary": "Equivalencias para cambiar uno por otro.",
+      "tags": [
+        "ají",
+        "equivalencias"
+      ],
+      "created": "2026-10-08",
+      "step_count": 0,
+      "search": "Ají amarillo: fresco o en pasta Equivalencias para cambiar uno por otro. ají equivalencias Un ají amarillo fresco equivale más o menos a una cucharada de pasta.\n\nLa pasta envasada pica menos y da más color. El ají fresco, sin venas ni pepas y blanqueado en agua hirviendo, da un sabor más limpio.\n\nSi la receta pide ají fresco licuado y solo tienes pasta, usa la misma cantidad en cucharadas que en ajíes."
+    },
+    {
+      "id": "papa-amarilla-entera",
+      "type": "guia",
+      "file": "data/notas/papa-amarilla-entera.json",
+      "title": "Papa amarilla que no se deshaga",
+      "summary": "Cómo sancocharla para que quede suave pero entera.",
+      "tags": [
+        "papa",
+        "técnica"
+      ],
+      "created": "2026-10-08",
+      "step_count": 4,
+      "search": "Papa amarilla que no se deshaga Cómo sancocharla para que quede suave pero entera. papa técnica "
+    }
+  ]
+}

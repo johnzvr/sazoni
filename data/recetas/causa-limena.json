@@ -1,0 +1,46 @@
+{
+  "id": "causa-limena",
+  "type": "receta",
+  "title": "Causa limeña de atún",
+  "summary": "Masa de papa amarilla con ají y limón, rellena de atún con mayonesa y palta.",
+  "category": "entradas",
+  "cuisine": "criolla",
+  "time_min": 45,
+  "difficulty": "Fácil",
+  "servings": 6,
+  "tags": ["criolla", "frío", "entrada"],
+  "created": "2026-10-02",
+  "ingredients": [
+    {
+      "group": "Para la masa",
+      "items": [
+        { "qty": 1, "unit": "kg", "name": "papa amarilla", "aisle": "mercado" },
+        { "qty": 3, "unit": "cda", "name": "pasta de ají amarillo", "aisle": "bodega" },
+        { "qty": 3, "unit": "", "name": "limones", "note": "el jugo", "aisle": "mercado" },
+        { "qty": 4, "unit": "cda", "name": "aceite vegetal", "aisle": "despensa" },
+        { "qty": null, "unit": "", "name": "sal", "note": "al gusto", "aisle": "despensa" }
+      ]
+    },
+    {
+      "group": "Para el relleno",
+      "items": [
+        { "qty": 2, "unit": "latas", "name": "atún", "note": "escurrido", "aisle": "bodega" },
+        { "qty": 4, "unit": "cda", "name": "mayonesa", "aisle": "bodega" },
+        { "qty": 0.5, "unit": "", "name": "cebolla roja", "note": "picada fina", "aisle": "mercado" },
+        { "qty": 2, "unit": "", "name": "paltas", "note": "en láminas", "aisle": "mercado" }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "Sancocha las papas con cáscara en agua con sal hasta que estén suaves.", "timer_min": 25, "uses": ["papa amarilla"] },
+    { "text": "Pélalas en caliente y prénsalas hasta tener un puré sin grumos. Deja enfriar." },
+    { "text": "Amasa el puré con la pasta de ají, el jugo de limón, el aceite y la sal.", "uses": ["pasta de ají amarillo", "limones", "aceite vegetal"] },
+    { "text": "Mezcla el atún con la mayonesa y la cebolla.", "uses": ["atún", "mayonesa", "cebolla roja"] },
+    { "text": "En un molde, alterna una capa de masa, el relleno, las láminas de palta y otra capa de masa.", "uses": ["paltas"] },
+    { "text": "Refrigera antes de cortar y servir.", "timer_min": 30 }
+  ],
+  "tips": [
+    "Prensa la papa en caliente: fría se pone chiclosa.",
+    "Echa limón sobre la palta para que no se oscurezca."
+  ]
+}

@@ -29,11 +29,17 @@ const recetas = load("recetas").map(({ doc, path }) => {
   if (!CATS.includes(doc.category)) errors.push(`${path}: "category" debe ser uno de ${CATS.join(", ")}`);
   if (!Array.isArray(doc.ingredients) || !doc.ingredients.length) errors.push(`${path}: faltan "ingredients"`);
   if (!Array.isArray(doc.steps) || !doc.steps.length) errors.push(`${path}: faltan "steps"`);
+  if (doc.macros) {
+    for (const f of ["kcal", "protein", "carbs", "fat"]) {
+      if (typeof doc.macros[f] !== "number") errors.push(`${path}: "macros.${f}" debe ser un número`);
+    }
+  }
   const ing = (doc.ingredients || []).flatMap((g) => (g.items || []).map((i) => i.name));
   return {
     id: doc.id, type: "receta", file: path, title: doc.title, summary: doc.summary || "",
     category: doc.category, time_min: doc.time_min ?? null, servings: doc.servings ?? null,
     difficulty: doc.difficulty || "", tags: doc.tags || [], created: doc.created || "",
+    kcal: doc.macros?.kcal ?? null,
     ingredient_count: ing.length, search: [doc.title, doc.summary, ...(doc.tags || []), ...ing].join(" "),
   };
 });

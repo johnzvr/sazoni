@@ -8,6 +8,7 @@
   "time_min": 50,
   "difficulty": "Media",
   "servings": 4,
+  "macros": { "per": "porción", "kcal": 720, "protein": 42, "carbs": 62, "fat": 33 },
   "tags": ["criolla", "pollo", "almuerzo"],
   "created": "2026-10-08",
   "ingredients": [

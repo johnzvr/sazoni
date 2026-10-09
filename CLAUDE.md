@@ -10,7 +10,8 @@ Cuando John pida guardar algo:
    - Receta → `data/recetas/<id>.json`
    - Nota o guía → `data/notas/<id>.json`
    - `id` en kebab-case sin tildes, igual al nombre del archivo.
-   - `created` = fecha de hoy (YYYY-MM-DD, hora de Lima).
+   - `created` = fecha y hora actuales en Lima (`YYYY-MM-DDTHH:mm`), para que la más nueva salga primero.
+   - Siempre incluye `macros` por porción: estímalos a partir de los ingredientes y las cantidades.
 2. Corre `node tools/build-index.mjs`. Valida las fichas y regenera `data/index.json`. Si falla, corrige y vuelve a correr.
 3. Commit con un mensaje corto, por ejemplo `Receta: Ají de gallina`, y push a `main`.
 4. Confírmale a John en una línea que ya está en el app (Pages tarda alrededor de un minuto).

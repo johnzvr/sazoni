@@ -1,6 +1,26 @@
 {
-  "updated": "2026-10-09T03:49:19.683Z",
+  "updated": "2026-10-09T04:01:13.010Z",
   "recetas": [
+    {
+      "id": "hot-dogs-buenazos",
+      "type": "receta",
+      "file": "data/recetas/hot-dogs-buenazos.json",
+      "title": "Hot dogs buenazos",
+      "summary": "Salchicha dorada en pan brioche tostado con cheddar, cebolla caramelizada a la cerveza, tocino crocante, salsa de ají amarillo y papitas al hilo.",
+      "category": "fondos",
+      "time_min": 40,
+      "servings": 4,
+      "difficulty": "Fácil",
+      "tags": [
+        "sánguches",
+        "cerdo",
+        "fin de semana"
+      ],
+      "created": "2026-10-08T23:00",
+      "kcal": 800,
+      "ingredient_count": 15,
+      "search": "Hot dogs buenazos Salchicha dorada en pan brioche tostado con cheddar, cebolla caramelizada a la cerveza, tocino crocante, salsa de ají amarillo y papitas al hilo. sánguches cerdo fin de semana cebollas blancas mantequilla azúcar rubia cerveza rubia mayonesa pasta de ají amarillo mostaza limón salchichas tipo frankfurter panes de hot dog brioche tocino queso cheddar pepinillos encurtidos papitas al hilo sal"
+    },
     {
       "id": "aji-de-gallina",
       "type": "receta",
@@ -17,6 +37,7 @@
         "almuerzo"
       ],
       "created": "2026-10-08",
+      "kcal": 720,
       "ingredient_count": 14,
       "search": "Ají de gallina Pollo deshilachado en crema de ají amarillo, pan y pecanas. Con papa amarilla, arroz, huevo y aceituna. criolla pollo almuerzo pechuga de pollo ajíes amarillos cebolla roja grande ajo pan de molde leche evaporada pecanas queso parmesano palillo sal, pimienta y comino papas amarillas huevos duros aceitunas de botija arroz blanco"
     },
@@ -36,6 +57,7 @@
         "wok"
       ],
       "created": "2026-10-06",
+      "kcal": 850,
       "ingredient_count": 11,
       "search": "Lomo saltado Tiras de lomo salteadas a fuego alto con cebolla, tomate, sillao y vinagre. Con papas fritas y arroz. criolla res wok lomo fino cebolla roja tomates ají amarillo ajo sillao vinagre tinto culantro sal, pimienta y aceite papas blancas arroz blanco"
     },
@@ -55,6 +77,7 @@
         "entrada"
       ],
       "created": "2026-10-02",
+      "kcal": 380,
       "ingredient_count": 9,
       "search": "Causa limeña de atún Masa de papa amarilla con ají y limón, rellena de atún con mayonesa y palta. criolla frío entrada papa amarilla pasta de ají amarillo limones aceite vegetal sal atún mayonesa cebolla roja paltas"
     }

@@ -1,0 +1,60 @@
+{
+  "id": "hot-dogs-buenazos",
+  "type": "receta",
+  "title": "Hot dogs buenazos",
+  "summary": "Salchicha dorada en pan brioche tostado con cheddar, cebolla caramelizada a la cerveza, tocino crocante, salsa de ají amarillo y papitas al hilo.",
+  "category": "fondos",
+  "cuisine": "sánguches",
+  "time_min": 40,
+  "difficulty": "Fácil",
+  "servings": 4,
+  "macros": { "per": "hot dog", "kcal": 800, "protein": 23, "carbs": 59, "fat": 52 },
+  "tags": ["sánguches", "cerdo", "fin de semana"],
+  "created": "2026-10-08T23:00",
+  "ingredients": [
+    {
+      "group": "Para la cebolla caramelizada",
+      "items": [
+        { "qty": 2, "unit": "", "name": "cebollas blancas", "note": "en pluma", "aisle": "mercado" },
+        { "qty": 1, "unit": "cda", "name": "mantequilla", "aisle": "bodega" },
+        { "qty": 1, "unit": "cda", "name": "azúcar rubia", "aisle": "despensa" },
+        { "qty": 60, "unit": "ml", "name": "cerveza rubia", "aisle": "bodega" }
+      ]
+    },
+    {
+      "group": "Para la salsa de ají",
+      "items": [
+        { "qty": 3, "unit": "cda", "name": "mayonesa", "aisle": "bodega" },
+        { "qty": 1, "unit": "cda", "name": "pasta de ají amarillo", "aisle": "bodega" },
+        { "qty": 1, "unit": "cda", "name": "mostaza", "aisle": "bodega" },
+        { "qty": 1, "unit": "", "name": "limón", "note": "unas gotas", "aisle": "mercado" }
+      ]
+    },
+    {
+      "group": "Para armar",
+      "items": [
+        { "qty": 4, "unit": "", "name": "salchichas tipo frankfurter", "aisle": "bodega" },
+        { "qty": 4, "unit": "", "name": "panes de hot dog brioche", "aisle": "bodega" },
+        { "qty": 4, "unit": "tiras", "name": "tocino", "aisle": "bodega" },
+        { "qty": 4, "unit": "láminas", "name": "queso cheddar", "aisle": "bodega" },
+        { "qty": 2, "unit": "cda", "name": "pepinillos encurtidos", "note": "picados", "aisle": "bodega" },
+        { "qty": 1, "unit": "taza", "name": "papitas al hilo", "aisle": "bodega" },
+        { "qty": null, "unit": "", "name": "sal", "note": "al gusto", "aisle": "despensa" }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "Derrite la mantequilla a fuego medio-bajo y cocina la cebolla con una pizca de sal, moviendo de vez en cuando, hasta que esté dorada y suave.", "timer_min": 15, "uses": ["cebollas blancas", "mantequilla"] },
+    { "text": "Agrega el azúcar y la cerveza, y cocina hasta que el líquido se evapore y la cebolla quede melosa. Reserva.", "timer_min": 5, "uses": ["azúcar rubia", "cerveza rubia"] },
+    { "text": "En una sartén fría pon el tocino y prende el fuego medio. Cocina hasta que esté crocante, escúrrelo en papel y pícalo. Deja la grasa en la sartén.", "timer_min": 6, "uses": ["tocino"] },
+    { "text": "Mezcla la mayonesa, la pasta de ají, la mostaza y unas gotas de limón.", "uses": ["mayonesa", "pasta de ají amarillo", "mostaza", "limón"] },
+    { "text": "Hazle cortes en diagonal a las salchichas y dóralas en la grasa del tocino, girándolas, hasta que estén tostadas por fuera.", "timer_min": 5, "uses": ["salchichas tipo frankfurter"] },
+    { "text": "Abre los panes, tuéstalos por dentro en la misma sartén y coloca el cheddar para que se derrita con el calor.", "timer_min": 1, "uses": ["panes de hot dog brioche", "queso cheddar"] },
+    { "text": "Arma: pan con cheddar, salchicha, cebolla caramelizada, tocino, salsa de ají, pepinillos y, al final, las papitas al hilo.", "uses": ["pepinillos encurtidos", "papitas al hilo"] }
+  ],
+  "tips": [
+    "Las papitas al hilo van al último, justo antes de comer, para que no se ablanden.",
+    "Los cortes en la salchicha hacen que se dore más y que la salsa se quede pegada.",
+    "La cebolla se puede hacer el día anterior y calentar al momento."
+  ]
+}

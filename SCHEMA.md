@@ -13,8 +13,9 @@
   "time_min": 50,
   "difficulty": "Fácil | Media | Difícil",
   "servings": 4,
+  "macros": { "per": "porción", "kcal": 720, "protein": 42, "carbs": 62, "fat": 33 },
   "tags": ["pollo", "almuerzo"],
-  "created": "2026-10-08",
+  "created": "2026-10-08T21:40",
   "ingredients": [
     {
       "group": "Para el guiso",
@@ -36,6 +37,8 @@
 | `id` | sí | kebab-case, igual al nombre del archivo |
 | `category` | sí | `fondos`, `entradas`, `postres`, `bebidas`, `otros` |
 | `servings` | recomendado | base para escalar porciones |
+| `macros` | recomendado | estimado por porción: `kcal`, `protein`, `carbs`, `fat` (g); `per` nombra la porción ("porción", "hot dog", "vaso") |
+| `created` | sí | `YYYY-MM-DDTHH:mm` en hora de Lima; ordena la lista y decide la "recién guardada" |
 | `ingredients[].items[].qty` | sí | número o `null` |
 | `ingredients[].items[].unit` | sí | `g`, `kg`, `ml`, `taza`, `cda`, `cdta`, `dientes`, `latas`… o `""` para unidades sueltas |
 | `ingredients[].items[].aisle` | sí | `mercado`, `bodega`, `despensa` |

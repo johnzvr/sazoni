@@ -8,6 +8,7 @@
   "time_min": 30,
   "difficulty": "Media",
   "servings": 2,
+  "macros": { "per": "porción", "kcal": 850, "protein": 48, "carbs": 85, "fat": 34 },
   "tags": ["criolla", "res", "wok"],
   "created": "2026-10-06",
   "ingredients": [

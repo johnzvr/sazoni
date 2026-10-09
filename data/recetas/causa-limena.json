@@ -8,6 +8,7 @@
   "time_min": 45,
   "difficulty": "Fácil",
   "servings": 6,
+  "macros": { "per": "porción", "kcal": 380, "protein": 17, "carbs": 42, "fat": 17 },
   "tags": ["criolla", "frío", "entrada"],
   "created": "2026-10-02",
   "ingredients": [

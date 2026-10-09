@@ -51,7 +51,7 @@ function fmtTime(min) {
 }
 function fmtDate(iso) {
   if (!iso) return "";
-  const d = new Date(iso + "T12:00:00");
+  const d = new Date(String(iso).slice(0, 10) + "T12:00:00");
   const today = new Date(); today.setHours(12, 0, 0, 0);
   const diff = Math.round((today - d) / 86400000);
   if (diff === 0) return "hoy";
@@ -173,7 +173,7 @@ let homeQuery = "";
 function recipeCard(r) {
   return `<a class="card c-${esc(r.category)}" href="#/receta/${esc(r.id)}">
     <span class="cat">${esc(CAT_LABEL[r.category] || "Otros")}${state.fav[r.id] ? " · ♥" : ""}</span>
-    <span><span class="t">${esc(r.title)}</span><span class="m">${esc(fmtTime(r.time_min))}</span></span>
+    <span><span class="t">${esc(r.title)}</span><span class="m">${esc([fmtTime(r.time_min), r.kcal ? `${r.kcal} kcal` : ""].filter(Boolean).join(" · "))}</span></span>
   </a>`;
 }
 
@@ -210,7 +210,7 @@ function viewHome() {
       <div class="pills">
         ${featured.time_min ? `<span class="pill dark">${esc(fmtTime(featured.time_min))}</span>` : ""}
         ${featured.servings ? `<span class="pill dark">${featured.servings} porciones</span>` : ""}
-        ${featured.difficulty ? `<span class="pill dark">${esc(featured.difficulty)}</span>` : ""}
+        ${featured.kcal ? `<span class="pill dark">${featured.kcal} kcal</span>` : featured.difficulty ? `<span class="pill dark">${esc(featured.difficulty)}</span>` : ""}
       </div></a>` : ""}
     ${!filtering ? `<a class="strip" href="#/compras">
       <span class="dot" style="color:var(--yellow)">${ICON.bag}</span>
@@ -280,6 +280,15 @@ async function viewRecipe(id) {
       </div>
     </div></header>
     <div class="detail">
+      ${doc.macros ? `<section style="display:flex;flex-direction:column;gap:10px">
+        <div class="row"><h2 class="sec-title lg">Macros</h2><span class="hello muted">por ${esc(doc.macros.per || "porción")} · aprox.</span></div>
+        <div class="macros">
+          <div class="kcal"><b>${Math.round(doc.macros.kcal)}</b><span>kcal</span></div>
+          <div><b>${Math.round(doc.macros.protein)} g</b><span>proteína</span></div>
+          <div><b>${Math.round(doc.macros.carbs)} g</b><span>carbos</span></div>
+          <div><b>${Math.round(doc.macros.fat)} g</b><span>grasa</span></div>
+        </div>
+      </section>` : ""}
       <section style="display:flex;flex-direction:column;gap:2px">
         <div class="row" style="padding-bottom:6px">
           <h2 class="sec-title lg">Ingredientes</h2>

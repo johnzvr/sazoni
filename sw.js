@@ -1,6 +1,6 @@
 // Service worker de Sazoni: el app funciona sin conexión.
 // Sube CACHE_VERSION cada vez que cambien index.html, styles.css o app.js.
-const CACHE_VERSION = "sazoni-v1";
+const CACHE_VERSION = "sazoni-v2";
 const SHELL = ["./", "index.html", "styles.css", "app.js", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png"];
 
 self.addEventListener("install", (e) => {

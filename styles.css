@@ -153,6 +153,14 @@ a { color: inherit; text-decoration: none; }
 .step .timer-btn { margin-top: 10px; height: 36px; padding: 0 14px; border-radius: 18px; border: 0; background: var(--navy); color: var(--cream); font-weight: 600; font-size: 14px; display: inline-flex; align-items: center; gap: 8px; }
 .step .timer-btn svg { width: 16px; height: 16px; }
 
+.macros { display: grid; grid-template-columns: 1.2fr repeat(3, minmax(0, 1fr)); border: 2px solid var(--navy); border-radius: 18px; overflow: hidden; background: var(--paper); }
+.macros > div { padding: 12px 10px; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.macros > div + div { border-left: 2px solid var(--navy); }
+.macros b { font-family: var(--f-display); font-weight: 900; font-size: 20px; line-height: 1.05; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.macros span { font-size: 12px; font-weight: 600; }
+.macros .kcal { background: var(--orange); color: var(--cream-hi); }
+.macros .kcal b { font-size: 24px; }
+
 .tip { display: flex; flex-direction: column; gap: 6px; padding: 18px; border-radius: 20px; background: var(--sky); }
 .tip p { margin: 0; }
 

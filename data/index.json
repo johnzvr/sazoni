@@ -1,6 +1,26 @@
 {
-  "updated": "2026-10-09T04:01:13.010Z",
+  "updated": "2026-10-09T04:04:46.949Z",
   "recetas": [
+    {
+      "id": "tallarines-al-pesto",
+      "type": "receta",
+      "file": "data/recetas/tallarines-al-pesto.json",
+      "title": "Tallarines al pesto",
+      "summary": "Spaghetti al dente envuelto en pesto genovés de albahaca fresca, parmesano, piñones y aceite de oliva, emulsionado con agua de la pasta.",
+      "category": "fondos",
+      "time_min": 25,
+      "servings": 4,
+      "difficulty": "Fácil",
+      "tags": [
+        "pasta",
+        "vegetariano",
+        "rápido"
+      ],
+      "created": "2026-10-08T23:05",
+      "kcal": 730,
+      "ingredient_count": 9,
+      "search": "Tallarines al pesto Spaghetti al dente envuelto en pesto genovés de albahaca fresca, parmesano, piñones y aceite de oliva, emulsionado con agua de la pasta. pasta vegetariano rápido hojas de albahaca ajo piñones queso parmesano aceite de oliva extra virgen limón sal spaghetti pimienta negra"
+    },
     {
       "id": "hot-dogs-buenazos",
       "type": "receta",

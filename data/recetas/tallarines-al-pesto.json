@@ -1,0 +1,49 @@
+{
+  "id": "tallarines-al-pesto",
+  "type": "receta",
+  "title": "Tallarines al pesto",
+  "summary": "Spaghetti al dente envuelto en pesto genovés de albahaca fresca, parmesano, piñones y aceite de oliva, emulsionado con agua de la pasta.",
+  "category": "fondos",
+  "cuisine": "italiana",
+  "time_min": 25,
+  "difficulty": "Fácil",
+  "servings": 4,
+  "macros": { "per": "porción", "kcal": 730, "protein": 20, "carbs": 78, "fat": 38 },
+  "tags": ["pasta", "vegetariano", "rápido"],
+  "created": "2026-10-08T23:05",
+  "ingredients": [
+    {
+      "group": "Para el pesto",
+      "items": [
+        { "qty": 60, "unit": "g", "name": "hojas de albahaca", "note": "unos 2 atados, solo hojas", "aisle": "mercado" },
+        { "qty": 1, "unit": "dientes", "name": "ajo", "note": "sin germen", "aisle": "mercado" },
+        { "qty": 40, "unit": "g", "name": "piñones", "note": "o nueces / pecanas", "aisle": "bodega" },
+        { "qty": 60, "unit": "g", "name": "queso parmesano", "note": "rallado", "aisle": "bodega" },
+        { "qty": 100, "unit": "ml", "name": "aceite de oliva extra virgen", "aisle": "despensa" },
+        { "qty": 1, "unit": "", "name": "limón", "note": "unas gotas, opcional", "aisle": "mercado" },
+        { "qty": null, "unit": "", "name": "sal", "note": "al gusto", "aisle": "despensa" }
+      ]
+    },
+    {
+      "group": "Para la pasta",
+      "items": [
+        { "qty": 400, "unit": "g", "name": "spaghetti", "aisle": "bodega" },
+        { "qty": null, "unit": "", "name": "pimienta negra", "note": "al gusto", "aisle": "despensa" }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "Tuesta los piñones en una sartén seca a fuego medio-bajo, moviéndolos, hasta que estén apenas dorados. Déjalos enfriar.", "timer_min": 3, "uses": ["piñones"] },
+    { "text": "Pon a hervir una olla grande con abundante agua y sal (debe saber a agua de mar).", "uses": ["sal"] },
+    { "text": "En la licuadora o procesadora, muele el ajo, los piñones y una pizca de sal. Agrega la albahaca y la mitad del aceite, y procesa en pulsos cortos para no calentar la hoja.", "uses": ["ajo", "piñones", "hojas de albahaca", "aceite de oliva extra virgen"] },
+    { "text": "Pasa a un bowl e incorpora el parmesano y el resto del aceite con una cuchara. Prueba y ajusta sal y, si quieres, unas gotas de limón.", "uses": ["queso parmesano", "aceite de oliva extra virgen", "limón"] },
+    { "text": "Cocina el spaghetti hasta que esté al dente. Antes de colarlo, guarda una taza del agua de cocción.", "timer_min": 9, "uses": ["spaghetti"] },
+    { "text": "Fuera del fuego, mezcla la pasta con el pesto y chorritos del agua reservada hasta que la salsa quede cremosa y brillante. No lo pongas al fuego: la albahaca se oscurece.", "uses": ["spaghetti"] },
+    { "text": "Sirve al toque con más parmesano y pimienta negra recién molida.", "uses": ["queso parmesano", "pimienta negra"] }
+  ],
+  "tips": [
+    "El pesto nunca va al fuego; el calor de la pasta y el agua de cocción bastan para emulsionarlo.",
+    "Los piñones son caros: nueces o pecanas funcionan muy bien y le dan un sabor más tostado.",
+    "Para que el pesto guardado no se ponga negro, cúbrelo con una capa fina de aceite de oliva. Dura 3 días en la refri o 3 meses congelado."
+  ]
+}
